@@ -6,3 +6,11 @@
 
 ## Git
 ### Submodules
+#### Clone repo + submodules
+```bash
+git clone --recurse-submodules <repository-url>
+```
+#### Clone submodules in a cloned repo
+```bash
+git submodule update --init --recursive
+```
