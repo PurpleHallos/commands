@@ -14,3 +14,8 @@ git clone --recurse-submodules <repository-url>
 ```bash
 git submodule update --init --recursive
 ```
+## Pacman
+### Refrech Keyring
+```bash
+sudo pacman -Sy archlinux-keyring
+```
