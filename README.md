@@ -19,3 +19,8 @@ git submodule update --init --recursive
 ```bash
 sudo pacman -Sy archlinux-keyring
 ```
+## VirtualBox
+### USB device
+```bash
+sudo usermod -aG vboxusers $USER
+```
