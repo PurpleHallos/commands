@@ -24,3 +24,7 @@ sudo pacman -Sy archlinux-keyring
 ```bash
 sudo usermod -aG vboxusers $USER
 ```
+## Yt-dlp
+```bash
+yt-dlp -f "bestvideo[height=1080][ext=mp4]+bestaudio[ext=m4a]/best[height=1080][ext=mp4]" -o "%(title)s.%(ext)s" <url>
+```
